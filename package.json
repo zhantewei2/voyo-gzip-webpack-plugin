@@ -1,0 +1,23 @@
+{
+  "name": "@voyo/gzip-webpack-plugin",
+  "version": "1.0.0",
+  "description": "gzip webpack plugin",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "typescript": "^3.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "@types/webpack": "^4.41.13",
+    "webpack": "^4.43.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "zhantewei",
+  "license": "ISC",
+  "keywords": ["gzip","webpack","plugin","voyo"]
+}
